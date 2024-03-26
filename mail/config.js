@@ -9,7 +9,18 @@ let transporter = nodemailer.createTransport({
     pass: process.env.GMAIL_PASSWORD, // Tu contraseña de aplicaciones
   },
 });
+///un comentario
+//otro comentario
 
+/*
+hihiooh
+sdfsdfs
+sdfsdf
+sdfdsf
+sdfsdf
+sdf
+
+*/
 const enviarCorreo = (to, subject, html) => {
   // Opciones del correo electrónico
   let mailOptions = {
